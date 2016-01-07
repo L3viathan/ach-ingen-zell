@@ -11,12 +11,12 @@ import suffixList from 'SuffixList';
 
 import "../html/index.html";
 import "../sass/main.sass";
-import placenamesPath from "file!../data/placenames_de.tsv"
+import placenamesPath from "file!../data/placenames_ro.tsv"
 
 const projection = d3_geo.geo
 	.mercator()
 	.center([13.4, 52.5])
-	.translate([160, 120])
+	.translate([-150, -60])
 	.scale(1200)
 ;
 
